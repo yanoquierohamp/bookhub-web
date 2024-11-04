@@ -1,0 +1,25 @@
+.navbar{
+  background-color: #f8f9fa;/*fondo claro*/
+  box-shadow:0 4px 8px rgba(0,0,0,1);/* sombra sutil */
+}
+.navbar-brand{
+  font-weight:bold;
+  color:#007bff;/*color de la marca */
+
+}
+.nav.link{
+  font-size:1rem;
+  color:#007bff;/*color de los enlaces */
+  transition:color 0.3s ease;/* transicion suave en color */
+}
+.nav-link:hover{
+  color:#0056b3;/*color al hacer haver */
+}
+.nav-link.active{
+  font-weight:bold;
+  color:#0056b3;/* color del enlace activo */
+
+}
+.navbar-toggler{
+  border-color:rgba(0,0,0,0.1);
+}
